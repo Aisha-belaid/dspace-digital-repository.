@@ -35,4 +35,8 @@ To build and deploy this repository infrastructure locally:
 2. Database Setup: Configure your MySQL database instance and run the initial repository schemas.
 3. Build the Source Package:
 `bash
-   mvn package
+   mvn package.
+4.Install the Core Package: Navigate to dspace/target/dspace-installer and run:
+ant fresh_install
+5.Run Server: Deploy the generated .war web applications to your Apache Tomcat webapps directory and start the servlet container.
+💻 Developed and Maintained by Aisha Belfaqih.
